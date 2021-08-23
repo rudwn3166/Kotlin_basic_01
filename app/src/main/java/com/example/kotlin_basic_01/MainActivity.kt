@@ -14,8 +14,11 @@ class MainActivity : AppCompatActivity() {
 
 //            setOnClickListener는 버튼이 눌렸을 때 기능을 수행해주는 기능
 //
-            Log.d("메인화면로그","클릭용 버튼 눌림")
+            Log.d("메인화면로그","클릭용 버튼 눌림") //디버깅 로그
+            Log.e("메인화면로그","에러 관련 로그") //에러 로그
+
         }
+
 
     }
 }

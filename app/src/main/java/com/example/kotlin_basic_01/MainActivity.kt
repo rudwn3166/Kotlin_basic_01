@@ -11,6 +11,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+//        문법 연습 (변수)
+
+         val myName="경주" //변수 생성+대입->변수의 초기화 과정
+         Log.d("변수값",myName)
+
         clickBtn.setOnClickListener {
 
 //            setOnClickListener는 버튼이 눌렸을 때 기능을 수행해주는 기능
